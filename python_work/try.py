@@ -19,27 +19,49 @@
 # else:
 #     print("not equal")
 
-# not equals !=
-print("Enter your password: ")
-password=input()
-print("Confirm your password: ")
-confirm_password=input()
+# # not equals !=
+# print("Enter your password: ")
+# password=input()
+# print("Confirm your password: ")
+# confirm_password=input()
 
-if password != confirm_password:
-    print("password is not the same")
+# if password != confirm_password:
+#     print("password is not the same")
 
-# less than < and less than or equal to <=
-if 10<=2:
-    print("10 is less")
-elif 10<2:
-    print("10 maybe equal to")
-else:
-    print("equal")
+# # less than < and less than or equal to <=
+# if 10<=2:
+#     print("10 is less")
+# elif 10<2:
+#     print("10 maybe equal to")
+# else:
+#     print("equal")
 
-# greater than > and greater than or equal to >=
-if 10>=20:
-    print("10 is more")
-elif 10>2:
-    print("10 maybe equal to")
-else:
-    print("equal")
+# # greater than > and greater than or equal to >=
+# if 10>=20:
+#     print("10 is more")
+# elif 10>2:
+#     print("10 maybe equal to")
+# else:
+#     print("equal")
+
+# # and operator 
+# if 5<3 and 10>2:
+#     print("conditions met")
+# else: 
+#     print ("conditions not met")
+
+# lists (array) and for loop
+fruits=["apples","bananas", "avocado"]
+vegetables=["tomatoes", "cucumber","kale"]
+
+print("Pick a fruit... Any fruit")
+fruit=input().lower()
+print("Pick a vegetable... Any vegetable")
+veg=input().lower()
+
+for fruit in fruits:
+    if (fruit in fruits):
+        print (fruit+" is available")
+        break
+    else:
+      print (fruit+" is not available")
