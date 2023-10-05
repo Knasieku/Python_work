@@ -60,8 +60,17 @@ print("Pick a vegetable... Any vegetable")
 veg=input().lower()
 
 for fruit in fruits:
-    if (fruit in fruits):
-        print (fruit+" is available")
+#     if (fruit in fruits) and (veg in vegetables):
+#         print (fruit+" is available" +veg + " is available")
+#         break
+#     else:
+#       print ("when neither is available")
+#       break
+    
+    if (fruit in fruits) or (veg in vegetables):
+        print (fruit+" is available" +veg + " is available")
         break
     else:
-      print (fruit+" is not available")
+      print ("when neither is available")
+      break
+
