@@ -51,26 +51,37 @@
 #     print ("conditions not met")
 
 # lists (array) and for loop
-fruits=["apples","bananas", "avocado"]
-vegetables=["tomatoes", "cucumber","kale"]
+# fruits=["apples","bananas", "avocado"]
+# vegetables=["tomatoes", "cucumber","kale"]
 
-print("Pick a fruit... Any fruit")
-fruit=input().lower()
-print("Pick a vegetable... Any vegetable")
-veg=input().lower()
+# print("Pick a fruit... Any fruit")
+# fruit=input().lower()
+# print("Pick a vegetable... Any vegetable")
+# veg=input().lower()
 
-for fruit in fruits:
-#     if (fruit in fruits) and (veg in vegetables):
-#         print (fruit+" is available" +veg + " is available")
-#         break
-#     else:
-#       print ("when neither is available")
-#       break
-    
-    if (fruit in fruits) or (veg in vegetables):
-        print (fruit+" is available" +veg + " is available")
-        break
-    else:
-      print ("when neither is available")
-      break
+# fruit_available=False
+# vegetable_available=False
 
+# for i in fruits:
+#     if fruit ==i:
+#         fruit_available=True
+#         break    
+# for x in vegetables:
+#     if veg ==x:
+#         vegetable_available=True
+#         break  
+
+# if fruit_available and vegetable_available:
+#     print (fruit + "is available" +veg + "is available") 
+# elif fruit_available==True:
+#     print(fruit +"is available")
+# elif vegetable_available==True:
+#     print(veg +"is available")
+# else:
+#     print("neither is available")
+
+i=5
+while i <=15:
+    print("i")
+else 
+    print("i is no longer less than 15")
