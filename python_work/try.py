@@ -80,9 +80,27 @@
 # else:
 #     print("neither is available")
 
-i=5
-while i <=15:
-    print(i)
-    i +=1
-else:
-    print("i is no longer less than 15")
+# i=5
+# while i <=15:
+#     print(i)
+#     i +=1
+# else:
+#     print("i is no longer less than 15")
+
+# book="good days"
+# book_two=input()
+
+# while book==book_two:
+#     print("good days available")
+#     break
+# else:
+#     print("good days not available")
+
+
+#BDD
+'''
+GIVEN that book is available in dictionary 
+WHEN user enters book title,author or publishing house in the search field
+THEN list all books available in all shelves meeting the search criteria 
+AND if not available print not in stock
+'''
