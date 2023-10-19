@@ -104,3 +104,50 @@ WHEN user enters book title,author or publishing house in the search field
 THEN list all books available in all shelves meeting the search criteria 
 AND if not available print not in stock
 '''
+# book_shelf= {
+#     "author":"malcom gladwell",
+#     "title":"blink",
+#     "row":2,
+# }
+# print(book_shelf)
+
+# def monak():
+#     print ("welcome to monak inc please enter your names")
+#     name_one=input()
+#     name_two=input()
+#     print("welcome " +name_one +name_two)
+
+#     if  name_one!= name_two:
+#         print("not monak")
+
+# monak()
+
+
+book_shelf= { 1:{
+    "author":"malcom gladwell",
+    "title":"blink",
+    "row":2,
+},
+2:{
+    "author":"john grisham",
+    "title":"run away jury",
+    "row":2,
+},
+3:{"author":"chimamanda adichie",
+    "title":"be a feminist",
+    "row":5,} 
+}
+
+book_shelf[4]={
+    "author":"rumi",
+    "title":"poems to life",
+    "row":5,
+}
+
+book_shelf[4]["published on"]=2009
+del book_shelf[4]["published on"]
+del book_shelf[4]
+
+print(book_shelf)
+# print(book_shelf[2]["author"])
+# print(book_shelf[3]["row"])
