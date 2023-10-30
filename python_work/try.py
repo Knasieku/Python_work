@@ -123,31 +123,60 @@ AND if not available print not in stock
 # monak()
 
 
-book_shelf= { 1:{
-    "author":"malcom gladwell",
-    "title":"blink",
-    "row":2,
-},
-2:{
-    "author":"john grisham",
-    "title":"run away jury",
-    "row":2,
-},
-3:{"author":"chimamanda adichie",
-    "title":"be a feminist",
-    "row":5,} 
-}
+# book_shelf= { 1:{
+#     "author":"malcom gladwell",
+#     "title":"blink",
+#     "row":2,
+# },
+# 2:{
+#     "author":"john grisham",
+#     "title":"run away jury",
+#     "row":2,
+# },
+# 3:{"author":"chimamanda adichie",
+#     "title":"be a feminist",
+#     "row":5,} 
+# }
 
-book_shelf[4]={
-    "author":"rumi",
-    "title":"poems to life",
-    "row":5,
-}
+# book_shelf[4]={
+#     "author":"rumi",
+#     "title":"poems to life",
+#     "row":5,
+#}
 
-book_shelf[4]["published on"]=2009
-del book_shelf[4]["published on"]
-del book_shelf[4]
+# book_shelf[4]["published on"]=2009
+# del book_shelf[4]["published on"]
+# del book_shelf[4]
 
-print(book_shelf)
-# print(book_shelf[2]["author"])
-# print(book_shelf[3]["row"])
+# print(book_shelf)
+# # print(book_shelf[2]["author"])
+# # print(book_shelf[3]["row"])
+
+#methods 
+'''
+.join()
+.find()
+.format()
+.strip()
+.replace()
+.split()
+
+# '''
+# def monak():
+#     print ("welcome to monak inc please enter your names")
+#     name_one=input().capitalize()
+#     name_two=str(input().replace("00","07"))
+#     print("welcome " +name_one +name_two)
+
+#     if  name_one!= name_two:
+#         print("not monak")
+# monak()
+
+'''
+arguments provide extra information to functions
+'''
+
+def sales(store,cost):
+    print(store + "is selling cups at " + str(cost))
+
+sales("4GC ", 40)
