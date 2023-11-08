@@ -180,3 +180,9 @@ def sales(store,cost):
     print(store + "is selling cups at " + str(cost))
 
 sales("4GC ", 40)
+
+'''
+Object oriented programming: It is a way of programming for maximum usability of code 
+i.e to not rewite code.
+It also help to breakdown code to small usable bits 
+'''
