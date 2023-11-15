@@ -20,6 +20,7 @@
 #     print("not equal")
 
 # # not equals !=
+
 # print("Enter your password: ")
 # password=input()
 # print("Confirm your password: ")
@@ -176,13 +177,46 @@ AND if not available print not in stock
 arguments provide extra information to functions
 '''
 
-def sales(store,cost):
-    print(store + "is selling cups at " + str(cost))
+# def sales(store,cost):
+#     print(store + "is selling cups at " + str(cost))
 
-sales("4GC ", 40)
+# sales("4GC ", 40)
 
 '''
 Object oriented programming: It is a way of programming for maximum usability of code 
 i.e to not rewite code.
 It also help to breakdown code to small usable bits 
+
+Concepts of OOP
+1. Inheritance: a child class is able to to inherite a parent class properties 
+                as well as properties from other child classes 
+
+2. Encapsulation: creating a class that its methods and variables can not be manupitalated
+
+3. Polymorphism: same function, different types (data types eg string,integer,boolean,float,object, etc)
+
+
+
 '''
+class Bird:
+    def flight(self):
+        print("Bird fly")
+
+    def walk(self):
+        print("birds walk too")
+    
+class Sparrow(Bird):
+        def flight(self):
+            print("sparrow fly")
+
+object_bird=Bird()
+object_sparrow=Sparrow()
+
+object_bird.flight()
+object_bird.walk()
+object_sparrow.flight()
+
+
+hello=1.5
+hello= "wrong"
+print(hello)
